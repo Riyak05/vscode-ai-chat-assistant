@@ -1,0 +1,66 @@
+{
+  "name": "vscode-ai-chat-assistant",
+  "displayName": "AI Chat Assistant",
+  "description": "A VS Code extension with a React-based AI chat assistant supporting file/image attachments and code generation.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": ">=1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:aiChatAssistant.startChat"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiChatAssistant.startChat",
+        "title": "AI Chat Assistant: Start Chat"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "AI Chat Assistant",
+      "properties": {
+        "aiChatAssistant.openAIApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your OpenAI API key for AI code generation."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "highlight.js": "^11.8.0",
+    "openai": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "rehype-highlight": "^5.0.2",
+    "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.70.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "prettier": "^3.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
