@@ -91,3 +91,6 @@ A Visual Studio Code extension that integrates a React-based AI chat assistant p
 - [Visual Studio Code Extension API](https://code.visualstudio.com/api)
 - [OpenAI GPT API](https://platform.openai.com/docs/api-reference)
 - [React](https://react.dev/)
+
+## View of AI Chat Assistant for Visual Studio Code 
+![chat-assistant](https://github.com/user-attachments/assets/df689349-593a-4591-b092-34dc1a7eeed5)
