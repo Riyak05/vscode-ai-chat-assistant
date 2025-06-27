@@ -4,6 +4,10 @@ A Visual Studio Code extension that integrates a React-based AI chat assistant p
 
 ---
 
+![chat-assistant](https://github.com/user-attachments/assets/eaab14b9-26ff-4142-84e5-ecadbee944d3)
+
+
+
 ## Features
 
 - **Modern React Chat UI**: Clean, minimal, and responsive chat interface rendered in a VS Code WebView.
@@ -92,5 +96,3 @@ A Visual Studio Code extension that integrates a React-based AI chat assistant p
 - [OpenAI GPT API](https://platform.openai.com/docs/api-reference)
 - [React](https://react.dev/)
 
-## View of AI Chat Assistant for Visual Studio Code 
-![chat-assistant](https://github.com/user-attachments/assets/df689349-593a-4591-b092-34dc1a7eeed5)
