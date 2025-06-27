@@ -1,11 +1,10 @@
 # AI Chat Assistant for VS Code
 
+![chat-assistant](https://github.com/user-attachments/assets/eaab14b9-26ff-4142-84e5-ecadbee944d3)
+
 A Visual Studio Code extension that integrates a React-based AI chat assistant panel. The assistant supports contextual code workspace awareness, file/image attachments via `@filename` mentions, and AI-powered code generation using OpenAI's GPT models.
 
 ---
-
-![chat-assistant](https://github.com/user-attachments/assets/eaab14b9-26ff-4142-84e5-ecadbee944d3)
-
 
 
 ## Features
